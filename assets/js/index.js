@@ -10,7 +10,7 @@ scroll();
 getMeal('');
 $('.nav-menu').click(openNav);
 $('.nav-logo img').click(home);
-$('.menu a').click(getMovieAttr);
+$('.menu a').click(getAttr);
 $("#back-to-top").click(topZero);
 $(document).ready(function () {
     $('.loading').fadeOut(1000);
@@ -500,7 +500,7 @@ function validations() {
 // ==========================================================================  Add-E-L.click On Li Item-Nav  ===========================
 
 
-function getMovieAttr()
+function getAttr()
 {
     if($(this).attr("attr") == "categories.php")
     {
