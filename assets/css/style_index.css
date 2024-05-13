@@ -1,4 +1,5 @@
-/* ======================== General Css ========================*/
+
+
 * {
     margin: 0;
     padding: 0;
@@ -60,7 +61,9 @@ li {
     font-size: 18px;
 }
 
-/*========================= NavBar ========================*/
+
+
+
 nav {
     width: 60px;
     background-color: #f8f6f6;
@@ -139,7 +142,10 @@ nav .nav-social {
     font-size: 14px;
 }
 
-/*========================= Home Section ========================*/
+
+
+
+
 .item {
     width: 100%;
     margin: auto;
@@ -246,7 +252,10 @@ nav .nav-social {
     -o-transform: translate(-50%, -50%);
 }
 
-/*========================= Contact Section ========================*/
+
+
+
+
 #contact .form-control {
     box-shadow: none;
     background-color: transparent;
@@ -318,7 +327,9 @@ input[type=number] {
 
 
 
-/* ======================== back-to-top ========================*/
+
+
+
 #back-to-top {
     position: fixed;
     background-color: var(--main-color);
@@ -365,7 +376,9 @@ input[type=number] {
     opacity: 1;
 }
 
-/* ======================== loading screen ========================*/
+
+
+
 .loading {
     position: fixed;
     top: 0;
